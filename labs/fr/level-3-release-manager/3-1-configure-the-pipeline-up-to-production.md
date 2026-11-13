@@ -5,7 +5,7 @@ description: "Étendez une pipeline Salesforce à deux étages jusqu'à la produ
 level: 3
 lab: 1
 lang: fr
-source_rev: "5c9a1cf522399487493c11e7fd38de78d14bb0d9"
+source_rev: "c881642c5ceca27f6db81b58573a95e3bf931ea7"
 screenshots:
   - annotated/vscode/devops-pipeline-fresh--one-column
   - annotated/vscode/devops-pipeline-level3-split
@@ -41,7 +41,7 @@ depends_on:
 
 **Niveau** : 3 Release Manager
 
-**Durée** : ~2 h 05<!-- observed --> (observé : médiane 2 h 09, 9 participants, le plus rapide 2 h)<!-- /observed -->
+**Durée** : ~1 h 35<!-- observed --> (observé : médiane 1 h 39, 14 participants, le plus rapide 26 min)<!-- /observed -->
 
 **Vous allez** : transformer une pipeline à deux étages en une pipeline à quatre étages qui atteint la
 production, donner aux deux nouveaux étages leur org et un identifiant avec lequel un vrai projet peut
@@ -546,7 +546,7 @@ diagramme ne dessine aucune flèche de `uat` vers `preprod`, et le [Lab 3.6](3-6
 
 - `SFDX_CLIENT_ID_MAIN` et `SFDX_CLIENT_KEY_MAIN` dans la liste des secrets de votre fork
 - Le diagramme qui dessine une seule ligne de quatre branches, `integration` → `uat` → `preprod` →
-  `main`, comme sur l'image de l'[étape 12](#12-regarder-le-diagramme-a-nouveau)
+  `main`, comme sur l'image de l'[étape 12](#12-regarder-le-diagramme-de-nouveau)
 
 ### 9. Laisser les contributeurs démarrer un hotfix
 
@@ -810,7 +810,7 @@ Documentation des commandes : [hardis:project:create](https://sfdx-hardis.cloudi
 - Votre Pull Request de configuration mergée dans `integration`
 - Votre `integration` qui récupère la configuration, mergée
 
-### 12. Regarder le diagramme à nouveau
+### 12. Regarder le diagramme de nouveau
 
 Objectif : la pipeline à quatre étages que vous avez construite, sur le diagramme.
 
